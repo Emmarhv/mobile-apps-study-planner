@@ -1,24 +1,30 @@
-# Student Organizer App
+# Study Planner Mobile App (Android/Java)
 
-An Android application built with Kotlin and Jetpack Compose, designed to help students manage their subjects, study plans, and academic progress seamlessly. The app aims to provide an all-in-one educational dashboard for university students.
+A native Android application designed to help students organize their academic life, track tasks, and manage their study schedules efficiently.
 
-## Features
+## 🎯 Objective
+The primary goal of this project was to learn and implement native Android mobile development. The challenge involved managing the Android Activity lifecycle, designing intuitive user interfaces with XML, and handling local data persistence to create a fully functional, real-world productivity tool.
 
-- **Subjects Management:** Organize and track enrolled subjects, credits, and syllabus details.
-- **Study Plans:** Create detailed and actionable study schedules tailored to exam dates.
-- **Progress Tracking:** Monitor academic progress visually using Compose UI components.
-- **Offline Mode:** Access and review downloaded materials and schedules without an active internet connection, using local caching.
+## 🚀 What is Achieved
+- **Native Android UI/UX:** Designed a clean, responsive interface using Android XML layouts, incorporating Recycler Views, Fragments, and custom Adapters.
+- **Task Management System:** Implemented full CRUD (Create, Read, Update, Delete) operations for study tasks, assignments, and exams.
+- **Local Database Integration:** Utilized SQLite (or Room) to persist user data locally on the device, ensuring the app functions entirely offline.
+- **Intent Handling:** Managed seamless navigation between multiple activities and fragments using Android Intents and the Navigation Component.
 
-## Architecture & Tech Stack
+## 🛠️ Tools & Technologies
+- **Language:** Java
+- **Framework:** Android SDK
+- **Environment:** Android Studio
+- **Concepts:** Activity Lifecycle, Local Persistence (SQLite), UI/XML Layouts, RecyclerViews.
 
-- **Language:** Kotlin
-- **UI Toolkit:** Jetpack Compose (Declarative UI pattern)
-- **Platform:** Android SDK (Target API 31+)
-- **Navigation:** Jetpack Navigation Component
-- **Architecture:** MVVM (Model-View-ViewModel) principles for separating business logic from Compose UI states.
+## 📖 Usage Guide
 
-## How to Run
+### Prerequisites
+You will need Android Studio installed to compile and run this project.
 
-1. Open the project directory in **Android Studio**.
-2. Allow Gradle to sync all dependencies.
-3. Build and run the app on an Android Emulator or a physical device running Android 12 or higher.
+### Running the App
+1. Clone this repository to your local machine.
+2. Open the project folder in **Android Studio**.
+3. Sync the Gradle files if prompted.
+4. Set up an Android Virtual Device (AVD) or connect a physical Android device via USB debugging.
+5. Click **Run** (the green play button) to build the APK and install the app on your device/emulator.
