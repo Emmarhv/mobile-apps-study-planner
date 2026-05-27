@@ -1,22 +1,24 @@
 # Student Organizer App
 
-An Android application built with Kotlin and Jetpack Compose designed to help students manage their subjects, study plans, and academic progress seamlessly.
+An Android application built with Kotlin and Jetpack Compose, designed to help students manage their subjects, study plans, and academic progress seamlessly. The app aims to provide an all-in-one educational dashboard for university students.
 
-## 📱 Features
+## Features
 
-- **Subjects Management:** Organize and track enrolled subjects.
-- **Study Plans:** Create detailed and actionable study schedules.
-- **Progress Tracking:** Monitor academic progress visually.
-- **Offline Mode:** Access and review materials without an active internet connection.
+- **Subjects Management:** Organize and track enrolled subjects, credits, and syllabus details.
+- **Study Plans:** Create detailed and actionable study schedules tailored to exam dates.
+- **Progress Tracking:** Monitor academic progress visually using Compose UI components.
+- **Offline Mode:** Access and review downloaded materials and schedules without an active internet connection, using local caching.
 
-## 🛠️ Tech Stack
+## Architecture & Tech Stack
 
 - **Language:** Kotlin
-- **UI Toolkit:** Jetpack Compose
-- **Platform:** Android SDK
+- **UI Toolkit:** Jetpack Compose (Declarative UI pattern)
+- **Platform:** Android SDK (Target API 31+)
+- **Navigation:** Jetpack Navigation Component
+- **Architecture:** MVVM (Model-View-ViewModel) principles for separating business logic from Compose UI states.
 
-## 🚀 How to Run
+## How to Run
 
-1. Open the project in Android Studio.
-2. Wait for Gradle to sync dependencies.
-3. Build and run the app on an Android Emulator or a physical device.
+1. Open the project directory in **Android Studio**.
+2. Allow Gradle to sync all dependencies.
+3. Build and run the app on an Android Emulator or a physical device running Android 12 or higher.
